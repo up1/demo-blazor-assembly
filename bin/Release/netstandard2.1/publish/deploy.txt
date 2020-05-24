@@ -1,0 +1,19 @@
+$dotnet new blazorwasm -o BlazorApp1
+$cd BlazorApp1
+$dotnet publish -c Release
+
+Deploy to NGINX 
+- bin/Release/netstandard2.1/publish/wwwroot/
+
+
+
+
+
+
+https://www.jeremymorgan.com/blog/linux/blazor-in-linux/
+olivercoding.com/2018-11-25-blazor-nginx/
+
+
+https://docs.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-3.1
+https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor
+https://devblogs.microsoft.com/aspnet/blazor-webassembly-3-2-0-now-available/
